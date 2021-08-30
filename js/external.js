@@ -6,12 +6,12 @@ const txt = ul.querySelectorAll('.text-white');
 window.addEventListener('scroll', function () {
     if (window.pageYOffset > 100) {
         nav.classList.add('bg-light', 'shadow', 'navbar-light');
-        
+
         for (i = 0; i < txt.length; i++) {
             txt[i].classList.add('text-dark');
             txt[i].classList.remove('text-white');
         }
-        
+
     } else {
         nav.classList.remove('bg-light', 'shadow');
 
@@ -20,3 +20,10 @@ window.addEventListener('scroll', function () {
         }
     }
 });
+
+
+// $(window).resize(function () {
+//     If($(window).width() < 576){
+//         $('.col-7').removeClass('col-7');
+//     }
+// });
