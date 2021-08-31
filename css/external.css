@@ -2,7 +2,7 @@
 
 * {
     font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 /* section{
     width: 100%;
@@ -86,12 +86,10 @@ mark{
 .value img{
     max-width: 130px;
 }
-
-
-
-
-
-
+.my-card:hover{
+    box-shadow: 10px 10px #7B88FF;
+    outline: 2px solid #7B88FF;
+}
 
 
 
