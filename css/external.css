@@ -83,7 +83,14 @@ mark{
     outline: 2px solid #7B88FF;
 }
 
-
+/* PRODUCT SLIDER */
+.tengah{
+    /* margin-right: 0; */
+    /* justify-content: center;
+    align-items: center; */
+    /* display: flex; */
+    margin: auto;;
+}
 /* CONTACT */
 .contact{
     margin: 0 calc(-40vw + 40.6%);
@@ -118,6 +125,13 @@ li i{
     display: flex;
     justify-content: flex-end;
 }
+
+
+
+
+
+
+
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
