@@ -84,12 +84,14 @@ mark{
 }
 
 /* PRODUCT SLIDER */
-.tengah{
-    /* margin-right: 0; */
-    /* justify-content: center;
-    align-items: center; */
-    /* display: flex; */
-    margin: auto;;
+.my-pcard p{
+    font-size: 0.73rem;
+}
+.my-pcard img{
+    height: 300px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: #7B88FF;
 }
 /* CONTACT */
 .contact{
