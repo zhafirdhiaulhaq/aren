@@ -3,13 +3,16 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
+body{
+    background-color: #243b16;
+    color: white;
+}
 .row{
     display: flex;
     flex-wrap: wrap;
 }
 h2{
     font-weight: 600;
-    /* position: relative; */
 }
 
 /* NAVBAR */
@@ -28,13 +31,14 @@ nav {
     color: #FDCB6E;
 }
 
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(18, 88, 88)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: #125858;
+  } 
 /* ABOUT */
-/* .about{ */
-    /* background-color: blanchedalmond; */
-    /* padding-right: 25px; */
-    /* position: relative; */
-    /* width: 800px; */
-/* } */
 .paragraph{
     line-height: 32px;
     font-weight: 300;
@@ -42,14 +46,6 @@ nav {
     font-size: 16px;
 }
 
-/* h2::before {
-    content   : '';
-    position  : absolute;
-    bottom    : -10px;
-    width     : 80px;
-    height    : 4px;
-    background: #6c5ce71e;
-} */
 mark{
     background-color: #7B88FF;
     font-weight: 400;
@@ -68,19 +64,24 @@ mark{
     content: '';
     position: absolute;
     width: 300px;
-    height: 300px;
+    height: 200px;
     border-radius: 10px;
-    background: #7B88FF;
-    transform: translate(30px, 30px);
+    background: #b49032;
+    transform: translate(15px, 15px);
 }
 
 /* VALUES */
 .value img{
     max-width: 130px;
 }
+.card{
+    /* background-color: #243b16; */
+    border: 1px solid #b49032;
+}
 .my-card:hover{
-    box-shadow: 10px 10px #7B88FF;
-    outline: 2px solid #7B88FF;
+    box-shadow: 10px 10px #b49032;
+    outline: 2px solid #b49032;
+    /* outline: 2px solid #7B88FF; */
 }
 
 /* PRODUCT SLIDER */
@@ -91,7 +92,7 @@ mark{
     height: 300px;
 }
 .carousel-control-next-icon, .carousel-control-prev-icon{
-    background-color: #7B88FF;
+    background-color: #b49032;
 }
 /* CONTACT */
 .contact{
@@ -109,7 +110,7 @@ mark{
 .box{
     width: 40px;
     height: 40px;
-    background-color: #7B88FF;
+    background-color: #b49032;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -121,22 +122,67 @@ li{
 }
 li i{
    border-radius: 50%;
-   background-color: #7B88FF;
+   background-color: #b49032;
 }
 .div-maps{
     display: flex;
     justify-content: flex-end;
 }
+.form-group label{
+    color: #b49032;
+}
 
 
 
 
-
-
-
+/* small bgt kyk iphone lawas*/
+@media (max-width: 400px) {
+    h1.h1-brand{
+        margin-bottom: 3rem;
+    }
+    .paragraph{
+        font-size: 10px;
+        text-align: justify;
+        line-height: 14px;
+    }
+    .div-img img{
+        width: 200px;
+    }
+    .div-img::before{
+        width: 200px;
+        height: 200px;
+    }
+    p.card-text{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .card img.img-value{
+        width: 100px;
+    }
+    .ico-group p, .ico-group a, .ico-group li i{
+        font-size: 10px;
+    }
+    .box{
+        width: 25px;
+        height: 25px;
+    }
+}
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    .row{
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    img.img-me{
+        max-height: 40px;
+    }
+    .paragraph.p-about{
+        font-size: 13px;
+        line-height: 25px;
+    }
     .col-7{
         width: 100%;
     }
@@ -153,6 +199,15 @@ li i{
     .about{
         padding-right: 30px;
     }
+    .carousel-item img{
+        max-width: 200px;
+        height: auto;
+        margin: auto;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        width: 10px;
+    }
+    
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -176,8 +231,8 @@ li i{
         width: 100%;
     }
     section.p-5, section .p-5{
-        padding-left: 0!important;
-        padding-right: 0!important;
+        padding-left: 1rem!important;
+        padding-right: 1rem!important;
     }
     .col-4{
         width: 100%;
@@ -188,7 +243,20 @@ li i{
     }
 }
 
-/* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
-
+/* wide-screen */
+@media (min-width: 1290px) {
+    .my-brand{
+        font-size: 2rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+    h1.h1-brand{
+        font-size: 4rem;
+        line-height: 20px;
+        margin-bottom: 5rem;
+    }
+    a.btn{
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
+    }
 }

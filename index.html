@@ -4,20 +4,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Palm From Indonesia | Let's grow together</title>
+  <title>Palm From Indonesia | Indonesian Organic Palm Sugar</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/external.css">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <style>
     .banner-image {
-      background-image: url('img/tree5.jpg');
+      /* background-image: url('img/header1.jpg'); */
+      background-image: linear-gradient(rgba(0, 0, 0, 0.192), rgba(0, 0, 0, 0.089)), url('img/header1.jpg');
       background-size: cover;
     }
 
-    /* .carousel-item{
-      margin-right: 0;
-    } */
+    .banner-inquiries {
+      /* background-image: url('img/sawah.jpg'); */
+      background-image: linear-gradient(rgba(0, 0, 0, 0.192), rgba(0, 0, 0, 0.089)), url('img/sawah.jpg');
+      background-size: cover;
+    }
   </style>
 </head>
 <!-- <script defer src="https://widget.tochat.be/bundle.js?key=74938d58-79b0-4b93-8ad4-98d19903d30d"></script> -->
@@ -26,8 +30,8 @@
   <!-- Navbar  navbar-dark->nav -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
     <div class="container">
-      <a class="navbar-brand" href="#">Palm From</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      <img src="img/logo_no_bg.png" class="align-middle img-me" style="height: 50px;" alt="">
+      <button class="custom-toggler navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -58,10 +62,10 @@
   <!-- Banner Image  -->
   <div class="banner-image w-100 vh-100 d-flex justify-content-start align-items-center" id="nol">
     <div class="container">
-      <div class="row">
+      <div class="row my-row">
         <div class="col my-col">
-          <p class="my-brand">Palm From Indonesia</p>
-          <h1 class="text-white">Let's grow together</h1>
+          <!-- <p class="my-brand">Palm From Indonesia</p> -->
+          <h1 class="text-white h1-brand">From the best farmers <br> to a better world</h1>
           <a href="#satu" class="btn btn-outline-light mt-5">Learn More</a>
         </div>
       </div>
@@ -75,18 +79,15 @@
       <div class="row" id="satu">
         <h2 class="mb-4">About Us</h2>
         <div class="col col-7">
-          <p class="paragraph">
+          <p class="paragraph p-about">
             Palm From Indonesia is focused in producing palm products especially sugar and its derivatives. We are a
-            trusted palm supplier that located in Tangerang, Banten-Indonesia. Our mission is <mark> “Dedicating the
-              best of Indonesia’s natural resources to the world.”</mark> and our values are Quality, Healthy and
-            Integrity. We really looking forward to be your trusted partner and will gladly help to fulfill your palm
-            products demands. Palm From Indonesia wants to be your trusted and reliable business partner for all your
-            palm products inquiries. We will be happy to be your business partner and supplier who provide the best
-            quality of palm products you can get.
+            trusted palm supplier that located in Tangerang, Banten-Indonesia. We are commited to support the
+            sustainable agriculture concept by providing the best of Indonesia’s natural resources to the world. Our
+            products are made from the best organic agriculture to respect the environment and maintain good quality.
           </p>
         </div>
         <div class="col-md div-img">
-          <img src="img/raw palm syrup.jpg" alt="" width="300px">
+          <img src="img/about.jpg" alt="" width="300px">
         </div>
       </div>
     </section>
@@ -95,42 +96,40 @@
     <section class="p-5" id="dua">
       <h2 class="mb-5 text-center">Values</h2>
 
-      <div class="row row-cols-1 row-cols-md-3 value">
+      <div class="row row-cols-1 row-cols-md-3 value d-flex align-items-center">
         <div class="col mb-4">
           <div class="card my-card align-items-center py-4">
-            <img src="img/healthy.svg" class="card-img-top mb-3" alt="this is image">
+            <img src="img/healthy.svg" class="card-img-top mb-3 img-value" alt="this is image">
             <div class="card-body">
-              <h5 class="card-title text-center">Healty</h5>
-              <p class="card-text text-center">Carefully taken care by professional workers. We ensure all products are
-                suitable for
-                healthy living</p>
+              <h5 class="card-title text-center text-dark">Healthy</h5>
+              <p class="card-text text-center text-dark">Organically sweet. No chemicals, preservatives or colourings added. Only
+                delicious healthy sugar.</p>
             </div>
           </div>
         </div>
 
         <div class="col mb-4">
           <div class="card my-card align-items-center py-4">
-            <img src="img/quality.svg" class="card-img-top mb-3" alt="this is image">
+            <img src="img/integrity.svg" class="card-img-top mb-3 img-value" alt="this is image">
             <div class="card-body">
-              <h5 class="card-title text-center">Quality</h5>
-              <p class="card-text text-center">Quality is out best concerned. Standarization process to meets the best
-                quality and
-                hygiene</p>
+              <h5 class="card-title text-center text-dark">Integrity</h5>
+              <p class="card-text text-center text-dark">24/7 Costumer Service. We are always here to help to ensure that you can
+                get as much information as you need. Therefore you can get your best product at the best price.</p>
             </div>
           </div>
         </div>
 
         <div class="col mb-4">
           <div class="card my-card align-items-center py-4">
-            <img src="img/integrity.svg" class="card-img-top mb-3" alt="this is image">
+            <img src="img/quality.svg" class="card-img-top mb-3 img-value" alt="this is image">
             <div class="card-body">
-              <h5 class="card-title text-center">Integrity</h5>
-              <p class="card-text text-center">Means telling the truth. Keeping our words and treating others with
-                fairness and
-                respect</p>
+              <h5 class="card-title text-center text-dark">Quality</h5>
+              <p class="card-text text-center text-dark">Quality is our best concerned. We only use the best and purest palm sugar
+                to maintain good quality.</p>
             </div>
           </div>
         </div>
+
       </div>
     </section>
 
@@ -139,20 +138,18 @@
       <h2 class="mb-5 text-center">Products</h2>
       <!-- new -->
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <!-- <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol> -->
-        <div class="carousel-inner text-center">>
+        <div class="carousel-inner text-center">
           <div class="carousel-item active">
             <div class="row d-flex justify-content-center">
               <div class="col-md-6">
                 <div class="card my-pcard border-0">
                   <img src="img/card_granulated sugar.png" class="card-img img-fluid rounded" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Granulated Palm Sugar</h5>
-                    <p class="card-text">Powder Palm Sugar is soft, fine grained and mineral enriched. It is perfect for all your baking needs, and especially good in cakes, cookies, toppings and pies. It is naturally gluten-free vegan, and can be used as one-for-one replacement of regular sugar, except it is healthier and tastier</p>
+                    <h5 class="card-title text-dark">Granulated Palm Sugar</h5>
+                    <p class="card-text text-dark">Index glycemic that is contained in arenga palm sugar is lower than cane sugar
+                      and the others varieties of sugar. Foods with low index glycemic usually called as a healthy food.
+                      Since it don’t caused blood sugar increase in a significant way. This is really helpful for
+                      diabetics to regulate diet and control blood levels.</p>
                   </div>
                 </div>
               </div>
@@ -164,8 +161,11 @@
                 <div class="card my-pcard border-0">
                   <img src="img/card_raw palm syrup.png" class="card-img img-fluid rounded" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Palm Sugar Block</h5>
-                    <p class="card-text">it is solid shaped and mineral enriched. The shaped looks like coin</p>
+                    <h5 class="card-title text-dark">Block Sugar</h5>
+                    <p class="card-text text-dark">Arenga palm sugar are not using refining process as cane sugar does. This sugar
+                      containes many benefits for our healthiness. One of them is iron that is very needed by people
+                      with anemia or even pregnant women, which they really need to increase hemoglobin levels in blood.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -178,8 +178,10 @@
                 <div class="card my-pcard border-0">
                   <img src="img/palm sugar syrup.jpg" class="card-img img-fluid rounded" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Palm Sugar Syrup</h5>
-                    <p class="card-text">Smost suitable to be mixed with any kind of drinks. Adding this mineral enriched syrup will make your drink much more pleasant of your taste</p>
+                    <h5 class="card-title text-dark">Syrup Sugar</h5>
+                    <p class="card-text text-dark">This sugar contain niacin that is help digestion process and played an
+                      important role to change foods become energy. The benefits of this arenga palm sugar is positive
+                      for the body to avoid indigestion. </p>
                   </div>
                 </div>
               </div>
@@ -198,12 +200,29 @@
     </section>
   </div>
 
-  <section class="contact" id="empat">
+  <!-- INQUIRIES -->
+  <section class="w-100 h-50">
+    <div class="h-100 banner-inquiries">
+      <div class="container p-3">
+        <div class="row my-row p-5">
+          <div class="col my-col text-center">
+            <h1 class="text-white">Send your inquiries</h1>
+            <p class="text-white">we will provide best products as your request, for any questions and further information, please do not hesitate to contact.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- CONTACT -->
+  <section class="w-100 bg-dark" id="empat">
     <div class="container p-5">
       <div class="row" id="satu">
         <h2 class="mb-5 text-center text-white">Contact Us</h2>
         <div class="col col-4">
-          <!-- <p class="text-capitalize text-white ">Palm From Indonesia</p> -->
 
           <div class="ico-group">
             <div class="box my-3">
@@ -239,15 +258,44 @@
         </div>
       </div>
     </div>
+  </section>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-      crossorigin="anonymous"></script>
-    <script src="js/external.js"></script>
+  <section class="p-5">
+    <!-- <h2 class="mb-5 text-center text-white">Contact Us</h2> -->
+    <div class="container p-5">
+      <form target="_blank" action="https://formsubmit.co/tyazhafir@gmail.com" method="POST">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="fullname">Fullname</label>
+                <input type="text" class="form-control" name="name" required id="fullname" placeholder="Enter your name">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" name="email" required id="inputEmail4" placeholder="Enter your email">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" required name="message" rows="4" placeholder="Write your message here"></textarea>
+        </div>
+        <div class="d-flex justify-content-center">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="ADA EMAIL MASUKK NIHHH">
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Send</button>
+        </div>
+    </form>
+    </div>
+
+  </section>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+  <script src="js/external.js"></script>
 
 </body>
 
