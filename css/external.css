@@ -94,6 +94,13 @@ mark{
 .carousel-control-next-icon, .carousel-control-prev-icon{
     background-color: #b49032;
 }
+
+/* LOGOS */
+.logos img{
+    max-width: 150px;
+}
+
+
 /* CONTACT */
 .contact{
     margin: 0 calc(-40vw + 40.6%);
