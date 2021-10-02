@@ -131,7 +131,7 @@ li i{
    border-radius: 50%;
    background-color: #b49032;
 }
-.div-maps{
+.div-mail{
     display: flex;
     justify-content: flex-end;
 }
@@ -214,7 +214,9 @@ li i{
     .carousel-control-next-icon, .carousel-control-prev-icon{
         width: 10px;
     }
-    
+    .logos img{
+        width: 90px;
+    }
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -229,6 +231,9 @@ li i{
     .col-4{
         width: 100%;
         margin-bottom: 30px;
+    }
+    .logos img{
+        max-width: 110px;
     }
 }
 
