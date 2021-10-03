@@ -253,6 +253,14 @@ li i{
     iframe{
         width: 100%;
     }
+    .all-component{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .div-mail{
+        justify-content: center;
+        width: 100%;
+    }
 }
 
 /* wide-screen */
