@@ -134,10 +134,12 @@ li i{
 .div-mail{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 .form-group label{
     color: #b49032;
 }
+
 
 
 
