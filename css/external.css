@@ -185,6 +185,18 @@ li i{
         margin-right: 0;
         margin-left: 0;
     }
+    .row-mail{
+        display: flex;
+        justify-content: center;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .row-mail .form-group{
+        padding-left: 0;
+        padding-right: 0;
+    }
     img.img-me{
         max-height: 40px;
     }
