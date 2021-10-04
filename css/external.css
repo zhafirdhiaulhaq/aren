@@ -98,6 +98,7 @@ mark{
 /* LOGOS */
 .logos img{
     max-width: 150px;
+    flex-wrap: nowrap;
 }
 
 
@@ -140,9 +141,15 @@ li i{
     color: #b49032;
 }
 
-
-
-
+/* very small */
+@media (max-width: 312px){
+    .logos{
+        /* height: 43px; */
+    }
+    .logos img{
+        width: 40px;
+    }
+}
 
 /* small bgt kyk iphone lawas*/
 @media (max-width: 400px) {
@@ -175,11 +182,23 @@ li i{
         width: 25px;
         height: 25px;
     }
+    .logos img{
+        max-width: 55px;
+    }
+    .row.logos{
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    iframe{
+        height: 120px;
+    }
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    .row{
+    .row-pad{
         padding-left: 30px;
         padding-right: 30px;
         margin-right: 0;
@@ -247,7 +266,7 @@ li i{
         margin-bottom: 30px;
     }
     .logos img{
-        max-width: 110px;
+        width: 110px;
     }
 }
 
@@ -274,6 +293,12 @@ li i{
     .div-mail{
         justify-content: center;
         width: 100%;
+        padding: 0;
+    }
+    .row-contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -286,7 +311,7 @@ li i{
     }
     h1.h1-brand{
         font-size: 4rem;
-        line-height: 20px;
+        line-height: 5rem;
         margin-bottom: 5rem;
     }
     a.btn{
